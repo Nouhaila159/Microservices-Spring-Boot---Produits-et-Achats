@@ -94,6 +94,6 @@ Ces microservices permettent de gérer les produits en EUR et d'effectuer des ac
 ### Microservice Achats (Port 8081)
 | Méthode | Endpoint                     | Description                        |
 |---------|------------------------------|------------------------------------|
-| POST    | `/api/achats/convert`        | Convertir un montant dans une autre devise en fonction des taux de change actuels |
+| POST    | `/api/achats`        | Convertir un montant dans une autre devise en fonction des taux de change actuels |
 
 ---
